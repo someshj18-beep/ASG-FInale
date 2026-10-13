@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function Footer() { return <footer className="footer"><Link href="/" className="footer-brand"><img src="/logo.svg" alt="Arctic Staffing Global"/></Link><div className="footer-links"><Link href="/contact">Contact</Link><Link href="/verification">Employee Verification</Link><a href="https://arctic-staffing-global.com">arctic-staffing-global.com</a></div><span className="copyright">© {new Date().getFullYear()} Arctic Staffing Global. All rights reserved.</span></footer> }
